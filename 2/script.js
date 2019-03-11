@@ -18,7 +18,7 @@ if (jestCieplo) {
 console.log(idziemyNaPiwo);
 //powinno byc false*/
 
-var x = 5;
+var x = 2;
 switch(x) {
     case 1:
     console.log(1);
@@ -26,8 +26,8 @@ switch(x) {
     case '1':
     console.log(2);
     break;
-    case x:
-    console.log(2);
+    case 2:
+    console.log(100);
     break;
     default:
     console.log(0);

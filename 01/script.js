@@ -34,3 +34,8 @@ console.log(j===k);
 console.log(j !=k); 
 console.log( j !==k);
 
+console.log(!(j==k));
+console.log(j==!k);
+console.log(!j==k); 
+console.log( !j==!k);
+

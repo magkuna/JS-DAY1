@@ -26,4 +26,11 @@ console.log(g);     // wyswietla wartosc z ++
 console.log(++g);   //ale nie wyswietla
 console.log(g);     
 
+var j = 5;
+var k = '5';
+
+console.log(j==k);
+console.log(j===k);
+console.log(j !=k); 
+console.log( j !==k);
 

@@ -1,4 +1,4 @@
-var JestCieplo = false;
+/*var JestCieplo = false;
 var swieciSlonce = true;
 
 var idziemyNaPiwo;
@@ -16,4 +16,20 @@ if (jestCieplo) {
 
 
 console.log(idziemyNaPiwo);
-//powinno byc false
+//powinno byc false*/
+
+var x = 5;
+switch(x) {
+    case 1:
+    console.log(1);
+    break;
+    case '1':
+    console.log(2);
+    break;
+    case x:
+    console.log(2);
+    break;
+    default:
+    console.log(0);
+    break;
+}

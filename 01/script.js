@@ -19,3 +19,11 @@ console.log (h--);
 console.log(h);
 console.log(--h);
 console.log(h);
+
+var g = 4;
+console.log (g++); //ale nie wyswietla
+console.log(g);     // wyswietla wartosc z ++
+console.log(++g);   //ale nie wyswietla
+console.log(g);     
+
+

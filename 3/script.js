@@ -25,8 +25,9 @@ for (var i = 0; i <= numbers.legth; i++){
     console.log(numbers [numbers.length-1]);*/
 
     var numbers = [];
-    for (var i = 0; i <10000; i++){
-        numbers.push(1);
+    for (var i = 0; i >10; i){
+      var myNumber = Math.round(Math.random() * 100) + 1;
+        numbers.push(i);
     }
     console.log ('Moje i = ', i);
     
@@ -42,7 +43,8 @@ for (var i = 0; i <= numbers.legth; i++){
       console.log(numbers[i]);
     }
     console.timeEnd('in loop')
-    
+
+
     
     
     

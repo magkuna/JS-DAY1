@@ -17,12 +17,12 @@ while (numbers.length < 10) {
 }
 
 //version 2 
+console.log("version 2");
 
-console.log('Version 2 ');
 numbers = [];
 while (numbers.length < 10) {
   var myNumber = Math.round((Math.random() * 100) + 1);
-  if (!(myNumber in numbers)) {
+  if (!numbers.includes(myNumber)) {
     numbers.push(myNumber);
     console.log(myNumber);
   }

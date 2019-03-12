@@ -1,4 +1,3 @@
-
 var numbers = []; // 1, 2, 3, 4, 5, 6
 
 while (numbers.length < 10) {
@@ -17,7 +16,9 @@ while (numbers.length < 10) {
   }
 }
 
-// version 2
+//version 2 
+
+console.log('Version 2 ');
 numbers = [];
 while (numbers.length < 10) {
   var myNumber = Math.round((Math.random() * 100) + 1);

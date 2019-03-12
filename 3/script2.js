@@ -4,14 +4,13 @@ var numbers = [];
         numbers.push(myNumber);
     }
     
-    console.time('in loop');
-    for (var i = 0; i <= numbers.length; i++) {
+    for (var i = 0; i < numbers.length; i++) {
       console.log(numbers[i]);
     }
 
 
     console.log('Teraz od tyłu');
     
-    for (var i = 10; i >= 0; i--) {
+    for (var i = 9; i >= 0; i--) {
         console.log(numbers[i]);
     }
